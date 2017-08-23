@@ -8,6 +8,11 @@
 .W-1200{
     max-width: 1200px;
 }
+.W-540{
+    max-width: 540px;
+    width: 100%;
+    
+}
 .PaTB-20{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -29,6 +34,9 @@
 }
 .H-100PC{
     height: 100%;
+}
+.H-150{
+    height: 150px;
 }    
 </style>
 <style>/* POSITION */
@@ -38,6 +46,10 @@
 }
 .M-A{
     margin: auto;
+}
+.MRL-20{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .D-F{
     display: flex;
@@ -64,6 +76,9 @@
 .BkC-Blue{
     background-color: blue;
 }
+.BkC-Red{
+    background-color: red;
+}
 .C-White{
     color: white;
 }
@@ -74,6 +89,7 @@
 <style>/* RESET */
 .O-S{
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 </style>
@@ -87,40 +103,42 @@
     W-100PC H-100PC 
     M-A P-F
 ">
-<nav class="
-    W-1200 PaRL-20 PaTB-20
-    D-F JuC-SB M-A
-    ">
-    <aside class="PaRL-20">
-        <div class="PaRL-20">
-            Alenax
-        </div>
-    </aside>
+<nav>
+    <section class="
+        W-1200 PaRL-20 PaTB-20
+        D-F JuC-SB M-A
+        ">
+        <aside class="PaRL-20">
+            <div class="PaRL-20">
+                Alenax.cf
+            </div>
+        </aside>
 
-    <aside class="
-        PaRL-20
-        D-F
-        D-N-media500">
-        <div class="PaRL-20">
-           About
-        </div>
+        <aside class="
+            PaRL-20
+            D-F
+            D-N-media500">
+            <div class="PaRL-20">
+            About
+            </div>
 
-        <div class="PaRL-20">
-            Projects
-        </div>
+            <div class="PaRL-20">
+                Projects
+            </div>
 
-        <div class="PaRL-20">
-            Widgets
-        </div>
+            <div class="PaRL-20">
+                Widgets
+            </div>
 
-        <div class="PaRL-20">
-            Tutorials
-        </div>
-        
-        <div class="PaRL-20">
-            Socials
-        </div>
-    </aside>
+            <div class="PaRL-20">
+                Tutorials
+            </div>
+            
+            <div class="PaRL-20">
+                Socials
+            </div>
+        </aside>
+    </section>
 </nav>
 <main class="
     H-Main W-100PC
@@ -140,27 +158,46 @@
     </article>
     <article>
         <section class="
-            PaTB-60 PaRL-40
+            PaTB-60 PaRL-40 W-1200
+            M-A
         ">
             <div>
                 Hi, I hope you really enjoy surfing that 
                 full responsive, cross-browser and instant web app.
             </div>
+
             <div>
                 Click here for more details about how is done...
             </div>
         </section>
     </article>
-    <article class="BkC-Blue">
-        <section class="
-            PaTB-60 PaRL-40
+    <article class="
+        BkC-Blue
         ">
-            <div>
-                Hi, I hope you really enjoy surfing that 
-                full responsive, cross-browser and instant web app.
+        <section class="
+            PaTB-60 PaRL-40 W-1200
+            M-A D-F
+        ">
+            <div class="
+            MRL-20 W-540 H-150
+            BkC-Red
+            ">
+                <span>
+                </span>
+
+                <span>
+                </span>
             </div>
-            <div>
-                Click here for more details about how is done...
+
+            <div class="
+            MRL-20 W-540 H-150
+            BkC-Red
+            ">
+                <span>
+                </span>
+
+                <span>
+                </span>
             </div>
         </section>
     </article>
