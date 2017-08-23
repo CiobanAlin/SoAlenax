@@ -5,6 +5,14 @@
 .W-1200{
     max-width: 1200px;
 }
+.PaTB-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.PaTB-60{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .PaRL-40{
     padding-right: 40px;
     padding-left: 40px;
@@ -12,6 +20,13 @@
 .PaRL-20{
     padding-right: 20px;
     padding-left: 20px;
+}
+.H-Hero{
+    height: calc(100vh - (40px + 18px));
+    background-color: blue;
+}
+.H-100PC{
+    height: 100%;
 }    
 </style>
 <style>/* POSITION */
@@ -29,24 +44,38 @@
 .FS-0{
     flex-shrink: 0;
 }
-.JC-SB{
+.JuC-SB{
     justify-content: space-between;
+}
+.JuC-C{
+    justify-content: center;
+}
+.AlI-C{
+    align-items: center;
 }
 </style>
 <style>/* STYLE */
-
+.C-White{
+    color: white;
+}
+.FS-36{
+    font-size: 36px;
+}
+</style>
+<style>/* RESET */
+ 
 </style>
 <style>/* SPECIAL */
-        
+   
 </style>
 </head>
-<body>
+<body class="M-A">
 <nav class="
-    W-1200 PaRL-20
-    D-F JC-SB M-A
+    W-1200 PaRL-20 PaTB-20
+    D-F JuC-SB M-A
     ">
     <aside class="PaRL-20">
-        <div>
+        <div class="PaRL-20">
             Alenax
         </div>
     </aside>
@@ -55,35 +84,55 @@
         PaRL-20
         D-F
         D-N-media500">
-        <div>
+        <div class="PaRL-20">
            About
-         </div>
+        </div>
 
-        <div>
+        <div class="PaRL-20">
             Projects
         </div>
 
-        <div>
+        <div class="PaRL-20">
             Widgets
         </div>
 
-        <div>
+        <div class="PaRL-20">
             Tutorials
         </div>
         
-        <div>
+        <div class="PaRL-20">
             Socials
         </div>
     </aside>
 </nav>
 <main>
+    <article class="
+        H-Hero
+        ">
+        <section class="
+            H-100PC
+            D-F JuC-C AlI-C   
+            C-White  FS-36     
+        ">
+             Alenax
+        </section>
+    </article>
     <article>
-        <section>
+        <section class="
+        PaTB-60 PaRL-40
+        ">
             <div>
-                Alenax
+                Hi, I hope you really enjoy surfing that 
+                full responsive, cross-browser and instant web app.
+            </div>
+            <div>
+                Click here for more details about how is done...
             </div>
         </section>
     </article>
 </main>
+<script src="javascript/jquery-3.2.1.min.js"></script>
+<script>
+</script>
 </body>
 </html>
