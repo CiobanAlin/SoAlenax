@@ -24,10 +24,6 @@
     padding-right: 20px;
     padding-left: 20px;
 }
-.H-Hero{
-    height: calc(100vh - (40px + 18px));
-    background-color: blue;
-}
 .H-A{
     height: auto;
 }
@@ -65,6 +61,9 @@
 }
 </style>
 <style>/* STYLE */
+.BkC-Blue{
+    background-color: blue;
+}
 .C-White{
     color: white;
 }
@@ -74,12 +73,14 @@
 </style>
 <style>/* RESET */
 .O-S{
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 </style>
 <style>/* SPECIAL */
-   
+.H-Main{
+    height: calc(100% - (40px + 18px));
+} 
 </style>
 </head>
 <body class="
@@ -122,11 +123,12 @@
     </aside>
 </nav>
 <main class="
-    H-100PC W-100PC
-    O-S
+    H-Main W-100PC
+    O-S P-F
 ">
     <article class="
-        H-Hero
+        W-100PC H-100PC
+        BkC-Blue
         ">
         <section class="
             H-100PC
@@ -149,7 +151,7 @@
             </div>
         </section>
     </article>
-    <article>
+    <article class="BkC-Blue">
         <section class="
             PaTB-60 PaRL-40
         ">
