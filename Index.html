@@ -28,11 +28,18 @@
     height: calc(100vh - (40px + 18px));
     background-color: blue;
 }
+.H-A{
+    height: auto;
+}
 .H-100PC{
     height: 100%;
 }    
 </style>
 <style>/* POSITION */
+.P-F{
+    position: fixed;
+    z-index: 99999;
+}
 .M-A{
     margin: auto;
 }
@@ -66,15 +73,18 @@
 }
 </style>
 <style>/* RESET */
- 
+.O-S{
+    overflow: scroll;
+}
+
 </style>
 <style>/* SPECIAL */
    
 </style>
 </head>
 <body class="
-    W-100PC H-100PC
-    M-A
+    W-100PC H-100PC 
+    M-A P-F
 ">
 <nav class="
     W-1200 PaRL-20 PaTB-20
@@ -111,7 +121,10 @@
         </div>
     </aside>
 </nav>
-<main>
+<main class="
+    H-100PC W-100PC
+    O-S
+">
     <article class="
         H-Hero
         ">
